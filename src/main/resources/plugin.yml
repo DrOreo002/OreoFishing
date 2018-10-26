@@ -1,0 +1,3 @@
+name: OreoFishing
+version: ${project.version}
+main: me.droreo002.oreofishing.OreoFishing

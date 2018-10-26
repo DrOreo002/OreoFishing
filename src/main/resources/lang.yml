@@ -1,0 +1,6 @@
+# COMMANDS #
+#          #
+
+# Executed when the player had no permission
+command-no-permission: 'You have no permission to run this command!'
+command-invalid-usage: 'Invalid usage!'
