@@ -1,0 +1,32 @@
+DefaultValue:
+  CustomTitle:
+    title: "Hello"
+    sub_title: "World"
+    fade_in: 10
+    fade_out: 10
+    stay: 20
+  CustomSound:
+    sound: 'NOTE_BLOCK_PLING'
+    volume: 1.0f
+    pitch: 1.0f
+  # DO NOT specify the name, custom title, custom sound!
+  FishingReward:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 5
+    broadcastMessage: '%player just got a reward %reward'
+    catchMessage: 'You just get a reward %reward'
+    command: '/eco give %player 5000'
+    permission: 'custom.permission'
+    desc:
+      - 'This is an Example reward!'
+    displayName: '&7[ &cExample Reward &7]'
+    useItem: false
+    useCommand: true
+    useBroadcast: false
+    useMessage: true
+    usePermission: false
+    useTitle: false
+    useSound: false
+

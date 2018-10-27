@@ -23,7 +23,6 @@ public enum FishingLang {
         this.placeholder = placeholder;
     }
 
-    // TODO : Continue okay!
     public void send(Player player) {
         String toSend = main.color(main.getLangFileManager().getLangFile().getString(path));
         Validate.notNull(toSend, "Cannot find message with the path of " + path + ". Please contact the developer!");
